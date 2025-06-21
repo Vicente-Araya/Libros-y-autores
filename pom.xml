@@ -40,8 +40,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
